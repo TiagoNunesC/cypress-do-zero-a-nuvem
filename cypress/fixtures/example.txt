@@ -1,0 +1,3 @@
+fgxdfcvbhjkjyuytytedfgdghfgdfhjjghdfdswghjkkl
+cypress\fixtures\example.json
+cypress\fixtures\example.txt

@@ -1,28 +1,41 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# 🧪 Projeto de Testes Automatizados com Cypress
 
-👋 Seja bem-vindo(a)!
+Este projeto utiliza o Cypress para a automação de testes end-to-end (E2E) em aplicações web.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
 
-## O que você vai aprender?
+### 🚀 Tecnologias
+Cypress
+Node.js
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+### ✅ Pré-requisitos
+Node.js instalado (versão 14 ou superior)
 
-## Vamos começar?
+Gerenciador de pacotes (npm ou yarn)
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+### ⚙️ Instalação
+Clone o repositório e instale as dependências:
 
-___
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+npm install
 
-Este é um curso da **Escola Talking About Testing**.
+### 🧪 Executando os Testes
+Modo interativo (Cypress UI):
+npx cypress open
+
+Modo headless (terminal):
+npx cypress run
+Modo com resolução personalizada (exemplo: mobile 410x860):
+
+npx cypress open --e2e --browser chrome --config viewportWidth=410,viewportHeight=860
+
+### 🛠 Comandos úteis
+npm run test: Executa os testes no terminal
+
+npm run cy:open: Abre o Cypress no modo interativo
+
+### 🤝 Contribuição
+Sinta-se livre para abrir issues ou enviar pull requests com melhorias, novos testes ou correções.
+
+### 📝 Licença
+Este projeto está licenciado sob a MIT License.
