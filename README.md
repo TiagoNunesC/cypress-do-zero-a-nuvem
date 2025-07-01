@@ -15,7 +15,7 @@ Gerenciador de pacotes (npm ou yarn)
 ### ⚙️ Instalação
 Clone o repositório e instale as dependências:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/TiagoNunesC/cypress-do-zero-a-nuvem.git
 cd seu-repositorio
 npm install
 
