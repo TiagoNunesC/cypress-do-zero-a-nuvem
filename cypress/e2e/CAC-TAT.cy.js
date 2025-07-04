@@ -203,7 +203,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
             .should('not.be.visible');
     });
 
-    it.only('preenche o campo da área de texto usando o camando invoke', () => {
+    it('preenche o campo da área de texto usando o camando invoke', () => {
         cy.get('#open-text-area')
             .invoke('val', 'Um texto qualquer')
             .should('have.value', 'Um texto qualquer');
